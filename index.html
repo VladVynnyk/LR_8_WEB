@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+    <div id="tabs">
+        <div class="tab whiteborder">border-radius</div>
+        <div class="tab">background-repeat</div>
+        <div class="tab">background-size</div>
+        <div class="tabContent">
+            <div class="block1">
+                <p>Верхній лівий радіус:
+                    <input type="range" id="rtl" min="0" max="100" value="0" oninput="fun1()">
+                    <input type="text" id="ttl" value="0">
+                </p>
+                <p>Верхній правий радіус:
+                    <input type="range" id="rtr" min="0" max="100" value="0" oninput="fun1()">
+                    <input type="text" id="ttr" value="0">
+                </p>
+                <p>Нижній правий радіус:
+                    <input type="range" id="rbr" min="0" max="100" value="0" oninput="fun1()">
+                    <input type="text" id="tbr" value="0">
+                </p>
+                <p>Нижній лівий радіус:
+                    <input type="range" id="rbl" min="0" max="100" value="0" oninput="fun1()">
+                    <input type="text" id="tbl" value="0">
+                </p>
+            </div>
+            <div class="footer-block">
+                <div id="block"></div>
+                <div class="code">
+                    <p>Code:</p>
+                    <textarea name="output" id="output" cols="40" rows="3">border-radius: 0px</textarea>
+                </div>
+            </div>
+        </div>
+        <div class="tabContent">
+            <div class="block2">
+                <h1>background-repeat</h1>
+                <p>background-repeat:repeat-x;
+                    <input type="radio" name="background" id="rtl" min="0" max="100" value="0" oninput="fun2()">
+                </p>
+                <p>background-repeat:repeat;
+                    <input type="radio" name="background" id="rtr" min="0" max="100" value="0" oninput="fun2()">
+
+                </p>
+                <p>background-repeat:space;
+                    <input type="radio" name="background" id="rbr" min="0" max="100" value="0" oninput="fun2()">
+
+                </p>
+                <p>background-repeat:round;
+                    <input type="radio" name="background" id="rbl" min="0" max="100" value="0" oninput="fun2()">
+                </p>
+                <p>background-repeat:no-repeat;
+                    <input type="radio" name="background" id="rbl" min="0" max="100" value="0" oninput="fun2()">
+                </p>
+                <p>background-repeat:space repeat;
+                    <input type="radio" name="background" id="rbl" min="0" max="100" value="0" oninput="fun2()">
+                </p>
+           
+            </div>
+            <div class="code">
+                <p></p>
+                
+            </div>
+        </div> 
+        <div class="tabContent">
+            <div class="block3">
+                <h2>background-size</h2>
+            <div class="grid">
+        </div>
+    </div>
+</div>
+       
+    <script src="js/app.js"></script>
+</body>
+
+</html>
